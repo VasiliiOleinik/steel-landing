@@ -71,6 +71,29 @@
                 </div>
             </div>
         </div>
+        <div class="action">
+            <div class="container d-flex">
+                <!-- DZ -->
+                <!-- title and link All news-->
+                <!-- action-wrapper: width: 100%-->
+                <div class="action-wrapper d-flex justify-content-between">
+                    <div class="action-item">123</div>
+                    <div class="action-item">456</div>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="container d-flex align-items-center">
+                <form action="rez.php" method="POST" class="consult-form d-flex flex-column" id="consult-form">
+                    <p class="consult-form-title">персональная консультация</p>
+                    <input type="text" placeholder="Имя" name="name" class="consult-form-input">
+                    <input type="text" placeholder="Email" name="email" class="consult-form-input">
+                    <input type="text" placeholder="Телефон" name="phone" class="consult-form-input">
+                    <textarea placeholder="Комментарий" name="comment" class="consult-form-textarea"></textarea>
+                    <button type="submit" class="send-btn">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
         <div class="contacts">
             <div class="container d-flex align-items-start justify-content-between">
                 <h3 class="title">Контакты</h3>
@@ -86,7 +109,7 @@
                 <div class="contacts-item d-flex flex-column">
                     <span class="contacts-title">ОДЕССА</span>
                     <a href="tel:0634838378"><span class="contacts-info">063 483 83 78</span></a>
-                    <a href="tel:0935223575"><span class="contacts-info">093 522 35 75</span></a>
+                    <a href="mailto:mail@gmail.com"><span class="contacts-info d-flex">mail@gmail.com</span></a>
                 </div>
             </div>
         </div>
@@ -126,9 +149,11 @@
     1. Установить Git - https://git-scm.com/download/win
     2. Аккаунт в github - https://github.com/
     3. Создание репозитория
-
-
-
-
+    4. В папке с проектом - Shift + ПКМ и выбрать Git bash
+    5.Инициализировать git по инструкции в репозитории
+    5. git add . - добавление изменений 
+    6. git status - проверить что добавилось в git
+    7. git commit -m "your commit" - добавление коммита
+    8. git push - отправка коммита на север
 
 -->
